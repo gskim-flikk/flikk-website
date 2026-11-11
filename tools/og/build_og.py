@@ -47,8 +47,8 @@ wordmark = (
 html = f"""<!doctype html>
 <html lang="ko"><head><meta charset="utf-8">
 <style>
-@font-face {{ font-family: Pretendard; src: url(../../assets/fonts/Pretendard-Bold.otf); font-weight: 700; }}
-@font-face {{ font-family: Nunito; src: url(../../assets/fonts/Nunito-Variable.ttf); font-weight: 200 1000; }}
+@font-face {{ font-family: Pretendard; src: url(../../assets/fonts/Pretendard-Bold.woff2); font-weight: 700; }}
+@font-face {{ font-family: Nunito; src: url(../../assets/fonts/Nunito-Variable.woff2); font-weight: 200 1000; }}
 html, body {{ margin: 0; }}
 .card {{ position: relative; width: 1200px; height: 630px; overflow: hidden; background: #2455E8; color: #F7F2E8; font-family: Pretendard, sans-serif; }}
 .copy {{ position: absolute; left: 84px; top: 92px; z-index: 3; }}

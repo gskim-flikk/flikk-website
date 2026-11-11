@@ -3,9 +3,9 @@
    Brand tokens: CIBI/brand-kit-v2/08-design-tokens
    ========================================================= */
 
-@font-face { font-family: "Pretendard"; src: url("assets/fonts/Pretendard-Regular.otf") format("opentype"); font-weight: 400; font-display: swap; }
-@font-face { font-family: "Pretendard"; src: url("assets/fonts/Pretendard-Bold.otf") format("opentype"); font-weight: 700; font-display: swap; }
-@font-face { font-family: "Nunito"; src: url("assets/fonts/Nunito-Variable.ttf") format("truetype"); font-weight: 200 1000; font-display: swap; }
+@font-face { font-family: "Pretendard"; src: url("assets/fonts/Pretendard-Regular.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Pretendard"; src: url("assets/fonts/Pretendard-Bold.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Nunito"; src: url("assets/fonts/Nunito-Variable.woff2") format("woff2"); font-weight: 200 1000; font-display: swap; }
 
 :root {
   --cobalt: #2455E8;
@@ -385,7 +385,7 @@ h2 {
 .scene { position: relative; flex: 1; min-height: 220px; overflow: hidden; }
 .game-info { padding: 22px 26px 26px; }
 .game-info h3 { font: 800 32px/1.1 var(--font-display); }
-.game-info p { margin-top: 8px; font-size: 16px; opacity: .85; }
+.game-info p { margin-top: 8px; font-size: 16px; opacity: .95; }
 .badge { display: inline-block; margin-bottom: 12px; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 700; }
 
 /* Lumi Fields */
@@ -655,7 +655,7 @@ h2 {
 .foot-logo .fl-spark { transform-origin: 50% 100%; }
 .foot-logo.in .fl { animation: footIn .9s var(--springy) both; animation-delay: calc(var(--i) * 70ms); }
 @keyframes footIn { from { transform: translateY(70%) scale(.7); opacity: 0; } to { transform: none; opacity: 1; } }
-.site-footer { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; max-width: var(--max); margin: 32px auto 0; padding: 24px 0 32px; font-size: 14px; border-top: 1px solid rgba(247,242,232,.2); opacity: .85; }
+.site-footer { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; max-width: var(--max); margin: 32px auto 0; padding: 24px 0 32px; font-size: 14px; border-top: 1px solid rgba(247,242,232,.2); opacity: .95; }
 .site-footer a { text-decoration: none; }
 .site-footer a:hover { color: var(--butter); }
 
